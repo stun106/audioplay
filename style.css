@@ -1,0 +1,94 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gideon+Roman&display=swap');
+:root{
+    --fonttilulo:'Abril Fatface', cursive;
+    --fontparagrafo:'Gideon Roman', cursive;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    width: 490px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.185);
+}
+
+img{
+    width: 150px;
+}
+
+.descricao > h2{
+    font-family: var(--fonttilulo);
+    font-weight: 100;
+    margin: 0px 20px;
+    color: black;
+}
+.descricao > a{
+    font-family: var(--fontparagrafo);
+    margin: 0px 20px ;
+    color: black; 
+}
+
+a:hover{
+    color: blue;
+}
+  
+.Barra{
+    width: 300px;
+    height: 8px;
+    margin: 15px 20px 0px;
+    border: solid 1px #eee;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: :flex-start;
+}
+.ponto{
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin: -6px;
+}
+
+progress{
+    height: 8px;
+    width: 0%;
+    
+}
+
+.tempo{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin: 5px 20px;
+    
+    color: white;
+}
+
+.botoes > img{
+    width: 30px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.pausebtn{
+    margin-left: 100px;
+}
+
+
+
+
