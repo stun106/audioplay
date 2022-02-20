@@ -42,7 +42,7 @@ function segundosParaMinutos(segundos){
     var campoMinuto = Math.floor(segundos / 60);
     var campoSegundos = segundos % 60;
     if (campoSegundos < 10){
-        campoSegundos = '0 ' + campoSegundos 
+        campoSegundos = '0' + campoSegundos 
     } 
     return campoMinuto+':'+campoSegundos;
        
