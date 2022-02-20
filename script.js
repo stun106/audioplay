@@ -9,6 +9,9 @@ var musica = document.querySelector('audio');
  document.querySelector('.stopbtn'). addEventListener('click', pararMusica);
 
  musica.addEventListener('timeupdate', atualizarBarra);
+
+ var duracaoMusica = document.querySelector('.fim');
+ duracaoMusica.textContent = segundosParaMinutos (Math.floor(musica.duration)); 
  
   //funções  
     
