@@ -33,11 +33,13 @@ img{
     font-family: var(--fonttilulo);
     font-weight: 100;
     margin: 0px 20px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.37);
     color: black;
 }
 .descricao > a{
     font-family: var(--fontparagrafo);
     margin: 0px 20px ;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.37);
     color: black; 
 }
 
@@ -61,6 +63,7 @@ a:hover{
     background-color: #eee;
     border-radius: 50%;
     margin: -6px;
+    background-color: rgb(58, 58, 58);
 }
 
 progress{
@@ -73,16 +76,14 @@ progress{
     display: flex;
     width: 300px;
     justify-content: space-between;
-    margin: 5px 20px;
+    margin: 5px 20px 0px;
     
     color: white;
 }
 
 .botoes > img{
     width: 30px;
-    padding: 5px;
     cursor: pointer;
-
 }
 
 .pausebtn{
