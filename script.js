@@ -1,4 +1,6 @@
 var musica = document.querySelector('audio');
+var duracaoMusica = document.querySelector('.fim');
+
 
 
 //Eventos
@@ -12,8 +14,7 @@ var musica = document.querySelector('audio');
 
  musica.addEventListener('timeupdate', atualizarBarra);
 
- var duracaoMusica = document.querySelector('.fim');
- renderizarMusica(indexMusica);
+
  
   //funções  
     
